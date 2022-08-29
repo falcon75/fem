@@ -58,6 +58,11 @@ K_glob[:3, -3:] = K_120[:3, 3:]
 K_glob[-3:, :3] = K_120[3:, :3]
 K_glob[-3:, -3:] = K_120[3:, 3:]
 
+# Supply boundary conditions
+# Elimination rows / columns based on zeros
+# Partion matrix to solve when unkowns on both sides
+# More general rules for solvability (Lin Alg) ?
+
 F = np.array([0, 0, 0, 0, 0, 0, 1, 0, 0])
 
 u0 = np.array([0, 0, 0, L, 0, 0, L/2, -L*np.sin(60), 0])
