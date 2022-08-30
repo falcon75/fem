@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
+# Initial attempt at implementing flexual bar finite element analysis
+
 # --- Helper Functions ---
 
 def rot(deg: int) -> np.ndarray:
