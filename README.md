@@ -6,12 +6,9 @@
 
 ## To Do
 
-Programming
-- Apply to more complex truss
+- Resolve stability issues complex truss
 - Procedure for meshing a model
-- Back substiture for element tensions and plot tension heatmap
-
-Theory
-- Generalise element stiffness matrix derivation (method of weighted residuals)
+- Plot stress heatmap
+- **Generalise element stiffness matrix derivation (method of weighted residuals)**
 
 
