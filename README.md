@@ -16,3 +16,21 @@
 
 - Very simple finite difference solver [in the diffusion notebook](fdm_diffusion.ipynb)
 
+# Graphics
+
+- Matplotlib animation is driving me crazy
+- PyGame and OpenGL
+
+```bash
+python -m pip install -U pygame --user
+python -m pip install PyOpenGL PyOpenGL_accelerate
+```
+
+<br>
+
+## Automata Graphics
+
+<br>
+
+![automata](vid.gif)
+
