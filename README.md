@@ -11,12 +11,17 @@
 - Plot stress heatmap
 - **Generalise element stiffness matrix derivation (method of weighted residuals)**
 
+<br>
 
 # Finite Difference Solver
 
 - Very simple finite difference solver [in the diffusion notebook](fdm_diffusion.ipynb)
 
+<br>
+
 # Graphics
+
+For simulation visualisation, tested with a cellular automata example in [this python file](graphics_automata.py)
 
 - Matplotlib animation is driving me crazy
 - PyGame and OpenGL
@@ -26,11 +31,5 @@ python -m pip install -U pygame --user
 python -m pip install PyOpenGL PyOpenGL_accelerate
 ```
 
-<br>
-
-## Automata Graphics
-
-<br>
-
-![automata](vid.gif)
+![automata](media/vid.gif)
 
